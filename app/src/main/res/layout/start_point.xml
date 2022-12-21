@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/yellow">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="@color/brown"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="Need help selecting a boarding point" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="@color/brown"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_marginBottom="20dp"
+            android:text="Set a landmark,street or area" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            >
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:text="Jaffna Bus Stand" />
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:text="Kacheri Junction" />
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:text="Ariya Junction" />
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:text="Mampalam Junction" />
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:text="Navatkuli" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
